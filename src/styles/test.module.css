@@ -1,0 +1,48 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+} */
+
+/* div {
+  background: gray;
+} */
+
+.primary {
+  color: blue;
+  background: white;
+}
+.secondary {
+  color: red;
+  background: wheat;
+}
+.primaryCard {
+  padding: 10px;
+  background: rgb(23, 100, 201);
+  border: 1px solid rgb(217, 232, 233);
+  border-radius: 10px;
+  margin: 4px 4px;
+  font-size: 1.4rem;
+  line-height: 2em;
+}
+
+.primaryBtn {
+  padding: 8px 20px;
+  margin: 1px 10px;
+  background: rgba(0, 0, 255, 0.493);
+  border-radius: 0.6rem;
+}
+.primaryBtn:hover {
+  background: rgba(0, 0, 255, 0.226);
+  color: red;
+}
+
+.danger {
+  color: white;
+  margin: 10px;
+  border-radius: 1rem;
+  padding: 10px;
+  font-size: large;
+  background: rgb(202, 70, 9);
+}
