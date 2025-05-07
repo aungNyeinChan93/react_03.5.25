@@ -21,7 +21,7 @@ const Lists = () => {
 
     return (
         <React.Fragment>
-            <section className='grid grid-cols-3 gap-8 h-screen mx-10'>
+            <section className='grid grid-cols-3 gap-8 '>
                 {
                     state.products.map(product => {
                         return <SingleList key={product.id} {...product} product={product} />
