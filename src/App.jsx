@@ -5,6 +5,7 @@ import ListView from './views/ListView'
 import Todos from './class_components/Todos'
 import CreateTodo from './class_components/CreateTodo'
 import Style from './class_components/Style'
+import TestReducer from './components/TestReducer'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Todos />
       <CreateTodo />
       <Style />
+      <TestReducer />
     </>
   )
 }
